@@ -30,7 +30,7 @@ async function bootstrap() {
 
   // Kích hoạt CORS (Quan trọng để ReactJS gọi được API)
   app.enableCors({
-    origin: ['http://localhost:3000', 'https://vlu-renting-client.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://vlu-renting-client.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
